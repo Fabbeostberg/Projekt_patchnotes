@@ -4,7 +4,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-color: grey;
+  background-color: #24252a;
 }
 
 li,
@@ -13,8 +13,12 @@ button {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: 16px;
-  color: white;
+  color: #edf0f1;
   text-decoration: none;
+}
+
+.nav_links a button {
+  display: inline;
 }
 
 header {
@@ -25,31 +29,36 @@ header {
 }
 
 .logo {
-  width: 4%;
-  height: 4%;
+  width: 4.2%;
+  height: 4.2%;
   cursor: pointer;
 }
 
-.navlinks {
+.nav_links {
   list-style: none;
+  background-color: #333439;
+  padding: 7px;
 }
 
-.navlinks li {
+.nav_links li {
   display: inline-block;
-  padding: 0px 20px;
+  padding: 0px 23px;
+  background-color: inherit;
 }
 
-.navlinks li a {
+.nav_links li a {
   transition: all 0.3s ease 0s;
+  background-color: inherit;
+  color: whitesmoke;
 }
 
-.navlinks li a:hover {
-  color: yellow;
+.nav_links li a:hover {
+  color: #0088a9;
 }
 
 button {
   padding: 9px 25px;
-  background-color: turquoise;
+  background-color: rgba(0, 136, 169, 1);
   border: none;
   border-radius: 50px;
   cursor: pointer;
@@ -57,5 +66,10 @@ button {
 }
 
 button:hover {
-  background-color: red;
+  background-color: #203354;
+}
+
+.owtext {
+  width: 200px;
+  height: 100px;
 }

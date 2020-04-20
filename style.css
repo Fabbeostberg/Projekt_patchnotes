@@ -73,3 +73,22 @@ button:hover {
   width: 700px;
   height: 100px;
   margin-left: 25%;
+
+  top: 100px;
+}
+
+.video {
+  z-index: -100;
+  position: absolute;
+  margin-top: 100px;
+}
+
+.rubrik {
+  color: white;
+}
+
+.box {
+  margin-right: 10%;
+  margin-left: 10%;
+  color: white;
+}

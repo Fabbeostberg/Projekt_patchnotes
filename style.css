@@ -92,3 +92,24 @@ button:hover {
   margin-left: 10%;
   color: white;
 }
+
+.navbar2 {
+  background-color: green;
+  margin: 8px;
+}
+
+.navbar2 li {
+  background-color: #333439;
+  padding: 10px;
+}
+
+.navbar2 li a {
+  transition: all 0.3s ease 0s;
+  background-color: inherit;
+  color: whitesmoke;
+}
+
+.contain {
+  position: absolute;
+  left: 0px;
+}
